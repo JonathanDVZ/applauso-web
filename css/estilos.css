@@ -108,3 +108,10 @@ a.active{
 .barra_sup nav ul li a{
 	color: #fff;
 }
+
+.cont_central .menu li{
+	color: #fff;
+	list-style: none;
+	font-size: 20px;
+	font-weight: bold;
+}
