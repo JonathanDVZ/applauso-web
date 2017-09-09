@@ -27,7 +27,7 @@ a.active{
 	color: #fff;
 	padding-bottom: 1em;
 }
-.cont_central h2, .cont_central h4{
+.cont_central h2, .cont_central h3, .cont_central h4{
 	color: #fff;
 }
 .cont_central .icon_1{
@@ -91,12 +91,28 @@ a.active{
 	background: linear-gradient(#83BE95, #BFC07E); /* Standard syntax */
 }
 
-
-.barra_sup{
+.grad2{
 	background-image: url(../img/Recursoswebcliente-27.png);
 	background-repeat: no-repeat;
 	background-size: 100% 100%; 
 	min-height: 650px;
+}
+
+.grad3 {
+	background: red; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#8BCCB5, #D6CE97); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#8BCCB5, #D6CE97); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#8BCCB5, #D6CE97); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#8BCCB5, #D6CE97); /* Standard syntax */
+}
+
+.grad4{
+	background-image: url(../img/Recursoswebcliente-28.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%; 
+	min-height: 650px;
+}
+.barra_sup{
 	padding-top: 4em;
 }
 .barra_sup nav, .barra_sup img{
@@ -114,4 +130,30 @@ a.active{
 	list-style: none;
 	font-size: 20px;
 	font-weight: bold;
+}
+.list_comida{
+	padding-top: 2em;
+}
+.list_comida ul li{
+	list-style: none;
+	padding-bottom:1em;
+	color: #fff;
+}
+.img_largo{
+	min-height: 140px;
+	width: 100%;
+}
+.img_cuadrado{
+	min-height: 140px;
+	width: 100%;
+}
+.form h3{
+	padding-left: .5em;
+}
+/*padding - margin*/
+.pad_3{
+	padding:3em;
+}
+.pderecho_0{
+	padding-right: 0px;
 }
