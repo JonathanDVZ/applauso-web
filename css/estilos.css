@@ -1,0 +1,64 @@
+.barra_1{
+	background-color: #A9AE5E;
+}
+.barra_2{
+	background-color: #DCA027;
+}
+.barra_2 .navbar{
+	margin-bottom: 0;
+}
+.barra_2 ul li a{
+	color: #fff;
+}
+.barra_2 ul li a.active{
+	font-weight: bold;
+}
+.cont_central{
+	padding-bottom: 8em;
+	padding-top: 5em;
+}
+.cont_central h2{
+	color: #fff;
+	padding-bottom: 1em;
+}
+.cont_central h2, .cont_central h4{
+	color: #fff;
+}
+.cont_central .icon_1{
+	padding: 1em;
+	padding-top: 2em;
+	padding-bottom: 1em;
+	width: 100%;
+}
+.cont_central .icon_2{
+	padding: 1em;
+	padding-top: 1em;
+	text-align: center;
+	width: 80%;
+}
+.cont_central .icon_3{
+	padding: 1em;
+	padding-top: 1em;
+	width: 80%;
+}
+.footer_azul{
+	background-color: #11B5B5;
+	padding: 2em;
+}
+.footer_azul ul li a{
+	color: #fff;
+	font-weight: bold;
+}
+.footer_azul .social img{
+	padding-left: 1em;
+}
+.row{
+	margin-right: 0px;
+}
+.grad {
+	background: red; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#83BE95, #BFC07E); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#83BE95, #BFC07E); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#83BE95, #BFC07E); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#83BE95, #BFC07E); /* Standard syntax */
+}
