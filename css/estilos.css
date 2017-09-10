@@ -1,6 +1,9 @@
 a.active{
 	font-weight: bold;
 }
+nav ul li a{
+	background-color: transparent !important; 
+}
 .blanco{
 	color: #fff;
 }
@@ -93,9 +96,6 @@ a.active{
 
 .grad2{
 	background-image: url(../img/Recursoswebcliente-27.png);
-	background-repeat: no-repeat;
-	background-size: 100% 100%; 
-	min-height: 650px;
 }
 
 .grad3 {
@@ -108,10 +108,23 @@ a.active{
 
 .grad4{
 	background-image: url(../img/Recursoswebcliente-28.png);
+}
+.grad5{
+	background-image: url(../img/Recursoswebcliente-02.png);
+}
+.grad6{
+	background-image: url(../img/Recursoswebcliente-19.png);
+}
+.grad7{
+	background-image: url(../img/Recursoswebcliente-16.png);
+}
+
+.grad2, .grad4, .grad5, .grad6, .grad7{
 	background-repeat: no-repeat;
 	background-size: 100% 100%; 
 	min-height: 650px;
 }
+
 .barra_sup{
 	padding-top: 4em;
 }
@@ -119,10 +132,11 @@ a.active{
 	display: inline-block;
 }
 .barra_sup nav{
-	padding-top: 1.5em;
+	padding-top: 2.5em;
 }
 .barra_sup nav ul li a{
 	color: #fff;
+	font-size: 18px;
 }
 
 .cont_central .menu li{
@@ -147,8 +161,21 @@ a.active{
 	min-height: 140px;
 	width: 100%;
 }
-.form h3{
-	padding-left: .5em;
+.form h4, .form h5{
+	padding-left: 1em;
+	color: #fff;
+	font-weight: bold;
+	text-align: left;
+}
+.form textarea{
+	min-height: 150px;
+}
+.linea_nar{
+	border:3px solid #FF9700;
+	width: 100px;
+}
+.icon_foto{
+	padding-top: 15em;
 }
 /*padding - margin*/
 .pad_3{
