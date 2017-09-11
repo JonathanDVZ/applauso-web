@@ -1,6 +1,6 @@
 @media(max-width: 320px){
 	.barra_sup nav {
-		padding-left: 1.5em;
+		padding-left: 2em;
 	}
 	.social{
 		padding-left:6em;
@@ -236,6 +236,16 @@
 	.cont_buscador{
 		padding-right: 0em;
 	}
+
+	.caja-concierto_buscador .buscar input{
+		height: 42px;
+	}
+	.img_buscador{
+		padding: 11px;
+	}
+	.caja-concierto_buscador{
+		margin-top: -2em !important;
+	}
 }
 @media(max-width: 769px) {
 	.cont_form{
@@ -368,6 +378,15 @@
 	}
 	.list_comida ul li img{
 		width: 5%;
+	}
+	.caja-concierto_buscador .buscar input{
+		height: 40px;
+	}
+
+	.img_buscador{
+		padding: 12px;
+		width: 94%;
+		height: 41px !important;
 	}
 }
 
