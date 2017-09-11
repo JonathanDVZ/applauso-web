@@ -23,6 +23,7 @@ nav ul li a{
 }
 .barra_2 ul li a{
 	color: #fff;
+	font-size: 22px;
 }
 
 .cont_central h2{
@@ -31,39 +32,6 @@ nav ul li a{
 }
 .cont_central h2, .cont_central h3, .cont_central h4{
 	color: #fff;
-}
-.cont_central .icon_1{
-	padding: 1em;
-	padding-top: 2em;
-	padding-bottom: 1em;
-	width: 100%;
-}
-.cont_central .icon_2{
-	padding: 1em;
-	padding-top: 1em;
-	text-align: center;
-	width: 80%;
-}
-.cont_central .icon_3{
-	padding: 1em;
-	padding-top: 1em;
-	width: 80%;
-}
-.cont_central .icon_4{
-	padding-top: 2em;
-	width: 50%;
-}
-.cont_central .icon_5{
-	padding-top: 1em;
-	width: 50%;
-}
-.cont_central .icon_6{
-	padding-top: 2em;
-	width: 70%;
-}
-.cont_central .icon_7{
-	padding-top: 1em;
-	width: 55%;
 }
 .footer_naranja{
 	background-color: #FF9700;
@@ -169,9 +137,7 @@ nav ul li a{
 	border:3px solid #FF9700;
 	width: 100px;
 }
-.icon_foto{
-	padding-top: 15em;
-}
+
 .txt_16{
 	font-size: 16px;
 }
@@ -196,6 +162,7 @@ select,
 textarea{
   color: #fff !important;
   font-size: 20px;
+  background-color: transparent;
 }
 ::-webkit-input-placeholder { /* Chrome */
   color: #fff !important;
@@ -210,4 +177,39 @@ textarea{
 :-moz-placeholder { /* Firefox 4 - 18 */
   color: #fff !important;
   opacity: 1;
+}
+
+.caja-concierto_buscador .buscar {
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.caja-concierto_buscador {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	padding-top: 0.5em;
+}
+
+.caja-concierto_buscador .buscar input {
+	border: none;
+	outline: none;
+	border-radius: none;
+	width: 90%;
+	height: 40px;
+	padding: 0.5em 1em;
+}
+
+.img_buscador{
+	background: #0C9A9B;
+	padding: 11px;
+	width: 100%;
 }

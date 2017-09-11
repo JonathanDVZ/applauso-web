@@ -233,6 +233,9 @@
 	.social img{
 		width: 30%;
 	}
+	.cont_buscador{
+		padding-right: 0em;
+	}
 }
 @media(max-width: 769px) {
 	.cont_form{
@@ -253,6 +256,54 @@
 	.social img{
 		width: 20%;
 	}
+	.titulo{
+		padding-top: 2em;
+		margin-top: 0em;
+	}
+	.cont_central .icon_1{
+		padding: 1em;
+		padding-top: 2em;
+		padding-bottom: 1em;
+		width: 50%;
+	}
+	.cont_central .icon_2{
+		padding: 1em;
+		padding-top: 1em;
+		text-align: center;
+		width: 50%;
+	}
+	.cont_central .icon_3{
+		padding: 1em;
+		padding-top: 1em;
+		width: 50%;
+	}
+	.cont_central .icon_4{
+		padding-top: 2em;
+		width: 50%;
+	}
+	.cont_central .icon_5{
+		padding-top: 1em;
+		width: 50%;
+	}
+	.cont_central .icon_6{
+		padding-top: 2em;
+		width: 70%;
+	}
+	.cont_central .icon_7{
+		padding-top: 1em;
+		width: 55%;
+	}
+	.cont_central .icon_8, .cont_central .icon_9, .cont_central .icon_10, .cont_central .icon_11, .cont_central .icon_13{
+		padding-top: 1em;
+		width: 40%;
+	}
+	.cont_central .icon_12{
+		padding-top: 1em;
+		width: 20%;
+	}
+	.list_comida ul li img{
+		width: 20%;
+	}
 }
 @media(min-width: 770px){
 	.barra_sup{
@@ -271,11 +322,66 @@
 	.grad2, .grad4, .grad5, .grad6, .grad7{
 		min-height: 650px;
 	}
+	.icon_foto{
+		padding-top: 15em;
+	}
+	.caja-concierto_buscador{
+		padding-bottom: 1em;
+		padding-top: 0em !important;
+	}
+	.cont_central .icon_1{
+		padding: 1em;
+		padding-top: 2em;
+		padding-bottom: 1em;
+		width: 100%;
+	}
+	.cont_central .icon_2{
+		padding: 1em;
+		padding-top: 1em;
+		text-align: center;
+		width: 80%;
+	}
+	.cont_central .icon_3{
+		padding: 1em;
+		padding-top: 1em;
+		width: 80%;
+	}
+	.cont_central .icon_4{
+		padding-top: 2em;
+		width: 50%;
+	}
+	.cont_central .icon_6{
+		padding-top: 2em;
+		width: 70%;
+	}
+	.cont_central .icon_7{
+		padding-top: 1em;
+		width: 55%;
+	}
+	.cont_central .icon_5,.cont_central .icon_8,.cont_central .icon_8, .cont_central .icon_9, .cont_central .icon_10, .cont_central .icon_11, .cont_central .icon_13{
+		padding-top: 1em;
+		width: 50%;
+	}
+	.cont_central .icon_12{
+		padding-top: 1em;
+		width: 25%;
+	}
+	.list_comida ul li img{
+		width: 5%;
+	}
 }
 
 @media(min-width: 900px){
 	.footer_naranja, .footer_azul{
 		padding-left: 20px;
 		padding-right: 15px;
+	}
+	.social img{
+		padding-top: 2em;
+		padding-right: 1em;
+		width: 20%;
+	}
+	.icon_foto{
+		padding-top: 15em;
 	}
 }
