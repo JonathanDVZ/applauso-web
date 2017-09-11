@@ -289,30 +289,40 @@
 	}
 	.cont_central .icon_4{
 		padding-top: 2em;
-		width: 50%;
+		width: 30%;
 	}
 	.cont_central .icon_5{
 		padding-top: 1em;
-		width: 50%;
+		width: 30%;
 	}
 	.cont_central .icon_6{
 		padding-top: 2em;
-		width: 70%;
+		width: 40%;
 	}
 	.cont_central .icon_7{
 		padding-top: 1em;
-		width: 55%;
+		width: 35%;
 	}
 	.cont_central .icon_8, .cont_central .icon_9, .cont_central .icon_10, .cont_central .icon_11, .cont_central .icon_13{
 		padding-top: 1em;
-		width: 40%;
+		width: 30%;
 	}
 	.cont_central .icon_12{
 		padding-top: 1em;
-		width: 20%;
+		width: 15%;
 	}
 	.list_comida ul li img{
 		width: 20%;
+	}
+	.cont_img{
+		margin-top: 1em;
+		padding-right: 0em;
+	}
+	.cont_img .col-xs-6,.cont_img .col-xs-12,.img_cuadrado, .img_largo{
+		margin-left: 0em;
+		margin-right: 0em;
+		padding-left: 0em;
+		padding-right: 0em;
 	}
 }
 @media(min-width: 770px){
@@ -382,7 +392,6 @@
 	.caja-concierto_buscador .buscar input{
 		height: 40px;
 	}
-
 	.img_buscador{
 		padding: 12px;
 		width: 94%;
@@ -402,5 +411,11 @@
 	}
 	.icon_foto{
 		padding-top: 15em;
+	}
+	.vnt_12{
+		padding-top: 5em;
+	}
+	.con_img{
+		margin-bottom: 1em;
 	}
 }
