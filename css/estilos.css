@@ -85,8 +85,11 @@ nav ul li a{
 .grad7{
 	background-image: url(../img/Recursoswebcliente-16.png);
 }
+.grad8{
+	background-image: url(../img/Recursoswebcliente-36.png);
+}
 
-.grad2, .grad4, .grad5, .grad6, .grad7{
+.grad2, .grad4, .grad5, .grad6, .grad7, .grad8{
 	background-repeat: no-repeat;
 	background-size: 100% 100%; 
 }
@@ -133,7 +136,7 @@ nav ul li a{
 .form textarea{
 	min-height: 150px;
 }
-.form select{
+.form .select{
 	background: #767676;
 	opacity: .7;
 	height: 30px;
