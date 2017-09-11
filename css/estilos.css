@@ -1,3 +1,5 @@
+@import 'responsive.css';
+
 a.active{
 	font-weight: bold;
 }
@@ -22,10 +24,7 @@ nav ul li a{
 .barra_2 ul li a{
 	color: #fff;
 }
-.cont_central{
-	padding-bottom: 8em;
-	padding-top: 5em;
-}
+
 .cont_central h2{
 	color: #fff;
 	padding-bottom: 1em;
@@ -79,10 +78,10 @@ nav ul li a{
 .footer_azul ul li a, .footer_naranja ul li a{
 	color: #fff;
 	font-weight: bold;
-}
+}/*
 .footer_azul .social img, .footer_naranja .social img{
 	padding-left: 1em;
-}
+}*/
 .row{
 	margin-right: 0px;
 }
@@ -122,17 +121,13 @@ nav ul li a{
 .grad2, .grad4, .grad5, .grad6, .grad7{
 	background-repeat: no-repeat;
 	background-size: 100% 100%; 
-	min-height: 650px;
 }
 
-.barra_sup{
-	padding-top: 4em;
-}
 .barra_sup nav, .barra_sup img{
 	display: inline-block;
 }
-.barra_sup nav{
-	padding-top: 2.5em;
+.barra_sup nav ul li{
+	display: inline-block;
 }
 .barra_sup nav ul li a{
 	color: #fff;
@@ -177,10 +172,42 @@ nav ul li a{
 .icon_foto{
 	padding-top: 15em;
 }
+.txt_16{
+	font-size: 16px;
+}
+.txt_18{
+	font-size: 18px;
+}
 /*padding - margin*/
 .pad_3{
 	padding:3em;
 }
 .pderecho_0{
 	padding-right: 0px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="email"],
+input[type="date"],
+input[type="time"],
+select,
+textarea{
+  color: #fff !important;
+  font-size: 20px;
+}
+::-webkit-input-placeholder { /* Chrome */
+  color: #fff !important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #fff !important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #fff !important;
+  opacity: 1;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: #fff !important;
+  opacity: 1;
 }
