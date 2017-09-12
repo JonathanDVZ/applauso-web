@@ -249,6 +249,64 @@
 	.form_row{
 		margin-right: 15px;margin-left: 15px;
 	}
+		.logo{
+		width: 50%;
+	}
+	.menu_top{
+		padding: 0em;
+	}
+	.imgtext article{
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+	.imgtext h1{
+		font-size: 16px;
+		margin-top: 0em;
+	}
+
+	.imgtext a{
+		padding: .2em.5em;
+		font-size: 12px;
+	}
+	.menu_down {
+		background-color: #F49517;
+	}
+	.menu_down a{
+		font-size: 20px;
+		color: #fff;
+		border-bottom: 1px solid #ddd;
+	}
+	.menu_down a:hover{
+		color: #333 !important;
+	}
+	.barra_contact{
+		margin-top: 2em !important;
+	}
+	.contact input{
+		margin-bottom: 1em;
+
+	}
+	.label_cont{
+		margin-top: 0em;
+	}
+	footer{
+		padding: 1em !important;
+	}
+	footer h5{
+		text-align: center;
+	}
+	footer .descargas img, .article img{
+		width: 100% !important;
+	}
+
+	footer .article img{
+		margin-top: .5em;
+	}
+
+	footer .container{
+		padding-left: 30px !important;
+	}
 }
 @media(max-width: 769px) {
 	.cont_form{
@@ -262,9 +320,6 @@
 	}
 	.grad2, .grad4, .grad5, .grad6, .grad7, .grand8{
 		min-height: 200px;
-	}
-	.footer_naranja nav ul li a, .footer_azul nav ul li a{
-		text-align: center;
 	}
 	.social img{
 		width: 20%;
@@ -403,10 +458,6 @@
 }
 
 @media(min-width: 900px){
-	.footer_naranja, .footer_azul{
-		padding-left: 20px;
-		padding-right: 15px;
-	}
 	.social img{
 		padding-top: 2em;
 		padding-right: 1em;
@@ -420,5 +471,91 @@
 	}
 	.con_img{
 		margin-bottom: 1em;
+	}
+		.imgtext a{
+		margin-left: 7em;
+	}
+	.imgtext h1{
+		font-size: 40px;
+		margin-top: 0em;
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+
+	.imgtext b{
+		font-size: 20px;
+		padding-left: .1em;
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+	.video{
+		height: 800px;
+	}
+	.barra_icon h3{
+		font-size: 22px !important;
+	}
+	.barra_icon p{
+		font-size: 16px;
+		text-align: center;
+	}
+	.text_login{
+		padding-left: 1em;
+	}
+}
+
+
+
+@media(min-width: 500px) and (max-width: 800px){
+
+	footer .textos{
+		padding-bottom: 2em;
+	}
+	footer{
+		padding: 1em !important;
+	}
+	footer h5{
+		text-align: center;
+		font-size: 30px;
+	}
+	footer .descargas img, .article img{
+		width: 100% !important;
+	}
+
+	footer .article img{
+		margin-top: .5em;
+	}
+
+	footer .container{
+		padding-left: 30px !important;
+	}
+
+	.imgtext h1{
+		font-size: 40px;
+		margin-top: 0em;
+	}
+
+	.imgtext b{
+		font-size: 20px;
+		padding-left: .1em;
+	}
+}
+
+@media (min-width: 600px){
+
+	.logo{
+		width: 15%;
+	}
+	.imgtext article{
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+
+	.imgtext h1{
+		margin-top: 0em;
+	}
+
+	.imgtext b{
+		font-size: 20px;
+		padding-left: .1em;
 	}
 }

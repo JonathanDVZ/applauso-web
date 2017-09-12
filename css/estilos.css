@@ -3,6 +3,102 @@
 a.active{
 	font-weight: bold;
 }
+a:hover{
+	text-decoration: none !important;
+	color: #FF9700 !important;
+}
+footer{
+	background: #0FB6AD;
+	color: #fff;
+	padding-top: 5em;
+	padding-bottom: 10em;
+}
+label{
+	font-weight: normal !important;
+}
+.btn-warning{
+	background-color: #FF9700 !important;
+}
+
+.menu_top{
+	background: #0B6F6D; padding: .5em;
+}
+.menu_down{
+	padding: 1em;
+	text-align: center;
+	border-bottom: 1.5px solid rgb(164, 166, 168);;
+}
+.menu_down a{
+	color: rgb(164, 166, 168);
+	font-size: 24px;
+}
+.barra_icon{
+	padding-top: 2em;
+	background: #F9F9F9;
+	padding: 3em;
+	color: #989898;
+}
+.barra_icon h3{
+	font-weight: bold;
+}
+.barra_icon p{
+	text-align: justify;
+}
+.contact{
+	background: #fff;
+	border: 1px solid #333;
+	border-top: none;
+	padding: 2em;
+	margin-bottom: 3em;
+}
+.barra_contact{
+	background: #FF9700;
+	padding: 2em;
+}
+
+.barra_contact h3{
+	color: #fff;
+}
+
+.imgtext {
+	position: relative;
+	margin: 0 auto;
+}
+.imgtext img {
+	height: auto;
+	width: 100%;
+}
+
+.imgtext article{
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-topright: 10px;
+	bottom: 20px;
+	color: #fff;
+	margin: 0;
+	position: absolute;
+	width: 100%;
+	text-align: left;
+}
+.article img{
+	width:80%;margin-bottom: .5em;
+}
+
+.textarealabel, .titulo, label{
+	color: #989898;
+	margin-top: 3em;
+}
+
+.titulo{
+	font-weight: bold;
+}
+.menu{
+	margin-top: .5em;
+}
+.menu a{
+	color: #fff;
+	text-align: right;
+}
+
 nav ul li a{
 	background-color: transparent !important; 
 }
@@ -33,25 +129,8 @@ nav ul li a{
 .cont_central h2, .cont_central h3, .cont_central h4{
 	color: #fff;
 }
-.footer_naranja{
-	background-color: #FF9700;
-}
-.footer_azul{
-	background-color: #11B5B5;
-}
-.footer_naranja, .footer_azul{
-	padding: 2em;
-	padding-top: 3em;
-}
-.footer_azul ul li a, .footer_naranja ul li a{
-	color: #fff;
-	font-weight: bold;
-}/*
-.footer_azul .social img, .footer_naranja .social img{
-	padding-left: 1em;
-}*/
 .row{
-	margin-right: 0px;
+	margin-right: 0px !important;
 }
 .grad {
 	background: red; /* For browsers that do not support gradients */
@@ -88,8 +167,14 @@ nav ul li a{
 .grad8{
 	background-image: url(../img/Recursoswebcliente-36.png);
 }
+.grad9{
+	background-image: url(../img/Recursoswebcliente-17.png);
+}
+.grad10{
+	background-image: url(../img/Recursoswebcliente-22.png);
+}
 
-.grad2, .grad4, .grad5, .grad6, .grad7, .grad8{
+.grad2, .grad4, .grad5, .grad6, .grad7, .grad8, .grad9, .grad10{
 	background-repeat: no-repeat;
 	background-size: 100% 100%; 
 }
@@ -151,6 +236,9 @@ nav ul li a{
 }
 .txt_18{
 	font-size: 18px;
+}
+.txt_50{
+	font-size: 50px;
 }
 /*padding - margin*/
 .pad_3{
