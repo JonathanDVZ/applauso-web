@@ -22,32 +22,32 @@
 	</div>
 	
 	<div class="row">
-		<div class="container">
+		<div class="container mar_left">
 		<center>
 			<form action="" method="">
-				<div class="col-sm-4 col-sm-offset-1">
+				<div class="col-xs-11 col-xs-offset-1 col-sm-4 col-sm-offset-2">
 					<h5 class="blanco text-left">Owner’s Name</h5>
 					<input type="text" name="" class="form-control text-center" /><br>
 				</div>
-				<div class="col-sm-4 col-sm-offset-2">
+				<div class="col-xs-11 col-xs-offset-1 col-sm-4 col-sm-offset-1">
 					<h5 class="blanco text-left">Owner’s Phone (Cell/Home)</h5>
 					<input type="text" name="" class="form-control text-center" /><br>
 				</div>
 
-				<div class="col-sm-12">
+				<div class="col-xs-11 col-xs-offset-1 col-sm-11">
 					<hr>
 					<h2 class="blanco">Online Account Access</h2>
 				</div>
 
-				<div class="col-sm-12">
+				<div class="col-xs-11 col-xs-offset-1 col-sm-11">
 					<h5 class="blanco text-left">Email Address</h5>
 					<input type="text" name="" class="form-control text-center" /><br>
 				</div>
-				<div class="col-sm-4 col-sm-offset-1">
+				<div class="col-xs-11 col-xs-offset-1 col-sm-4 col-sm-offset-2">
 					<h5 class="blanco text-left">Select Password</h5>
 					<input type="password" name="" class="form-control text-center" /><br>
 				</div>
-				<div class="col-sm-4 col-sm-offset-2">
+				<div class="col-xs-11 col-xs-offset-1 col-sm-4 col-sm-offset-1">
 					<h5 class="blanco text-left">Confirm Password</h5>
 					<input type="password" name="" class="form-control text-center" /><br>
 				</div>

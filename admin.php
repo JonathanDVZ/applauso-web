@@ -1,6 +1,6 @@
 <?php
 	error_reporting(E_ALL ^ E_NOTICE ^ E_WARNING ^ E_DEPRECATED);
-	include_once('manejador.php');
+	include_once('manejador_admin.php');
 ?>
 
 <!DOCTYPE html>
@@ -20,9 +20,46 @@
 </head>
 
 <body>
-	<?php
-		include_once($ruta);
-	?>
+	<div class="row">
+		<div class="col-sm-2" style="background: #0A9191;padding: 1em;">
+			<img src="img/logo.png" width="100%">
+		</div>
+		<div class="col-sm-8" style="background: #0DA8A8; padding: 1em;">
+			<input type="text" name="" class="form-control" style="background: #fff;" />
+		</div>
+		<div class="col-sm-2" style="background: #0DA8A8;">
+			<img src="img/Recursoswebcliente-54.png" width="37%"><b>Andres Cano</b>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-sm-2 menu_naranja">
+			<nav class="navbar">
+				<ul>
+					<li><img src="img/Recursoswebcliente-44.png">Home</li>
+					<li><img src="img/Recursoswebcliente-48.png">Información
+						<ul class="dropdown">
+							<li>Perfil</li>
+						</ul>
+					</li>
+					<li><img src="img/Recursoswebcliente-25.png" width="20%">Evento
+						<ul>
+							<li>Eventos publicados</li>
+							<li>Eventos no publicados</li>
+						</ul>
+					</li>
+					<li><img src="img/Recursoswebcliente-46.png">Servicio al Cliente</li>
+					<li><img src="img/Recursoswebcliente-45.png">Reportes</li>
+					<li><img src="img/Recursoswebcliente-47.png">Configuración</li>
+				</ul>
+			</nav>
+		</div>
+		<div class="col-sm-10 cont_admin">
+			<?php
+				include_once($ruta);
+			?>
+		</div>
+	</div>
 
 	<footer>
 		<div class="row row_right">

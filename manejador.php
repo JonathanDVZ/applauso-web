@@ -47,8 +47,14 @@
             $ruta = "soluciones.php";
             break;
 
+            
+        case "home":
+            $ruta = "home.php";
+            break;
+
+
         default:
-           echo "<script> location.href='?op=inicio'; </script>";
+            $ruta = "inicio.php";
 	}
 
 ?>

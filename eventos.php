@@ -16,7 +16,7 @@
 	
 	<div class="cont_central">
 		<div class="row">
-			<div class="col-sm-9 col-sm-offset-3 cont_img">
+			<div class="col-sm-9 col-sm-offset-3 cont_img padd_right">
 				<div class="row con_img">
 					<div class="col-xs-12 col-sm-4 pderecho_0">
 						<center><img src="img/Recursoswebcliente-29.png" class="img_largo"></center>

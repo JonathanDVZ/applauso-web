@@ -1,4 +1,5 @@
 @import 'responsive.css';
+@import 'admin.css';
 
 a.active{
 	font-weight: bold;
@@ -108,6 +109,9 @@ nav ul li a{
 .naranja{
 	color: #FF9700;
 }
+.gray{
+	color: #999;
+}
 .barra_1{
 	background-color: #A9AE5E;
 }
@@ -174,12 +178,16 @@ nav ul li a{
 	background-image: url(../img/Recursoswebcliente-22.png);
 }
 
-.grad2, .grad4, .grad5, .grad6, .grad7, .grad8, .grad9, .grad10{
+.grad2, .grad4, .grad5, .grad7, .grad8, .grad9, .grad10{
 	background-repeat: no-repeat;
 	background-size: 100% 100%; 
 }
+.grad7{
+	background-repeat: no-repeat;
+	background-size: 100% 70%; 
+}
 
-.barra_sup nav, .barra_sup img{
+.barra_sup nav, .barra_sup img, .inline img, .inline h3, .inline h1{
 	display: inline-block;
 }
 .barra_sup nav ul li{
@@ -203,14 +211,6 @@ nav ul li a{
 	list-style: none;
 	padding-bottom:1em;
 	color: #fff;
-}
-.img_largo{
-	min-height: 140px;
-	width: 100%;
-}
-.img_cuadrado{
-	min-height: 140px;
-	width: 100%;
 }
 .form h4, .form h5{
 	padding-left: 1em;
@@ -236,9 +236,6 @@ nav ul li a{
 }
 .txt_18{
 	font-size: 18px;
-}
-.txt_50{
-	font-size: 50px;
 }
 /*padding - margin*/
 .pad_3{
@@ -305,4 +302,7 @@ textarea{
 
 .img_buscador{
 	background: #0C9A9B;
+}
+.border_black{
+	border: 1px solid #818181 !important;
 }

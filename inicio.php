@@ -15,7 +15,7 @@
 <div class="imgtext">
 	<img src="img/slider.png" class="img1">
 	<article>
-		<b>APPLAUSO PARA TODOS</b>
+		<b class="pad_left">APPLAUSO PARA TODOS</b>
 		<h1>Soluciones únicas para<br> experiencias inolvidables.</h1>
 		<a href="#contacto" class="btn btn-warning btn_cont">Contáctenos</a>
 	</article>
@@ -65,12 +65,11 @@
 		</div>
 	</div>
 </div>
-
+<!--
 <div id="comohacemos">
 	<iframe src="https://drive.google.com/file/d/0B76SMzRmSCO4TS1oOVVHZGxJMG8/preview?info=0&showtitle=0" style="width:100%;max-width:100%;height:480px;margin:0px;padding:0px;border:0px;"></iframe>
-	<!--<video id="sampleMovie" src="video/applauso audio 1080.mov" controls width="100%" class="video"></video>-->
 </div>	
-
+-->	
 <div class="container" id="comofunciona">
 	<h2 class="text-center titulo">¿CÓMO FUNCIONA?</h2>
 	<br><br><br>
@@ -81,19 +80,19 @@
 <hr>
 
 <div class="container" style="margin-bottom: 1em;">
-<!--	<h2 class="text-center titulo">Tenemos a los mejores de nuestro lado</h2>
+	<h2 class="text-center titulo">Tenemos a los mejores de nuestro lado</h2>
 
 	<div class="row">
 		<div class="col-sm-4 col-xs-12">
-			<center><img src="image/icon5.png" width="50%" style="padding-top: 1em;"></center>
+			<center><img src="img/icon5.png" width="50%" style="padding-top: 1em;"></center>
 		</div>
 		<div class="col-sm-4 col-xs-12">
-			<center><img src="image/icon6.png" width="50%"></center>
+			<center><img src="img/icon6.png" width="50%"></center>
 		</div>
 		<div class="col-sm-4 col-xs-12">
-			<center><img src="image/icon7.png" width="90%"></center>
+			<center><img src="img/icon7.png" width="90%"></center>
 		</div>
-	</div>-->	
+	</div>
 </div>
 
 <br>
@@ -111,26 +110,26 @@
 						<label>Datos de contacto</label>
 					</div>
 					<div class="col-sm-6 col-xs-12">
-						<input type="text" class="form-control" placeholder="Nombre">
+						<input type="text" class="form-control border_black" placeholder="Nombre">
 					</div>
 					<div class="col-sm-6 col-xs-12">
-						<input type="text" class="form-control" placeholder="Apellido"><br>
+						<input type="text" class="form-control border_black" placeholder="Apellido"><br>
 					</div>
 					<div class="col-sm-6 col-xs-12">
-						<input type="email" class="form-control" placeholder="Correo">
+						<input type="email" class="form-control border_black" placeholder="Correo">
 					</div>
 					<div class="col-sm-6 col-xs-12">
-						<input type="number" class="form-control" placeholder="Número de teléfono"><br>
+						<input type="number" class="form-control border_black" placeholder="Número de teléfono"><br>
 					</div>
 
 					<div class="col-sm-12 col-xs-12">
 						<label class="label_cont">Compañía</label>
 					</div>
 					<div class="col-sm-6 col-xs-12">
-						<input type="text" class="form-control" placeholder="Nombre">
+						<input type="text" class="form-control border_black" placeholder="Nombre">
 					</div>
 					<div class="col-sm-6 col-xs-12">
-						<select class="form-control" name="">
+						<select class="form-control border_black" name="">
 							<option>Lugar</option>
 						</select>
 					</div>
@@ -139,7 +138,7 @@
 						<p class="text-center textarealabel">Díganos si actualmente ofrece la entrega y por qué le gustaría asociarse con <br> Applauso.</p>
 					</div>
 					<div class="col-sm-12 col-xs-12">
-						<textarea class="form-control" name="" style="min-height: 150px;"></textarea><br>
+						<textarea class="form-control border_black" name="" style="min-height: 150px;"></textarea><br>
 					</div>
 
 					<div class="col-sm-12 col-xs-12">
