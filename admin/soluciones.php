@@ -1,7 +1,7 @@
 <div class="barra_sup grad8">
 	<div class="row">
 		<div class="col-xs-12 col-sm-4 col-sm-offset-4">
-			<img src="img/Recursoswebcliente-03.png" width="100%">
+			<img src="../img/Recursoswebcliente-03.png" width="100%">
 		</div>
 		<div class="col-xs-12 col-sm-4">
 			<nav class="navbar pull-left">
@@ -17,7 +17,7 @@
 	<div class="cont_central cont_form">
 		<div class="row">
 			<div class="col-xs-12 col-sm-4 col-sm-offset-4">
-				<center><a href=""><img src="img/Recursoswebcliente-39.png"></a></center>
+				<center><a href=""><img src="../img/Recursoswebcliente-39.png"></a></center>
 			</div>
 			<div class="col-xs-12 col-sm-12">
 				<h2 class="blanco text-center">SOLUCIONES ÚNICAS PARA <br>EXPERIENCIAS INOLVIDABLE</h2>

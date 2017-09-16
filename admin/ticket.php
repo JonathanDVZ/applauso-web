@@ -30,7 +30,7 @@
 				</div>
 
 				<div class="col-sm-4 inline">
-					<img src="img/Recursoswebcliente-56.png"><h3 class="naranja">Boletería <br>numerada</h3>
+					<img src="../img/Recursoswebcliente-56.png"><h3 class="naranja">Boletería <br>numerada</h3>
 				</div>
 			</div>
 
@@ -39,15 +39,15 @@
 					<h2 class="naranja">¿Cuantos escenarios se van a ofrecer y el numero de ingresos?</h2>
 					<table class="table_ad mar_left">
 						<tr>
-							<td><img src="img/Recursoswebcliente-57.png">Premiun</td>
+							<td><img src="../img/Recursoswebcliente-57.png">Premiun</td>
 							<td>40.000</td>
 						</tr>
 						<tr>
-							<td><img src="img/Recursoswebcliente-57.png">VIP</td>
+							<td><img src="../img/Recursoswebcliente-57.png">VIP</td>
 							<td>30.00</td>
 						</tr>
 						<tr>
-							<td><img src="img/Recursoswebcliente-57.png">Gramilla</td>
+							<td><img src="../img/Recursoswebcliente-57.png">Gramilla</td>
 						</tr>
 					</table>
 				</div>
@@ -56,11 +56,11 @@
 					<h2 class="naranja">Costos por Tickets</h2>
 					<table class="table_ad mar_left">
 						<tr>
-							<td><img src="img/Recursoswebcliente-57.png">Premiun</td>
+							<td><img src="../img/Recursoswebcliente-57.png">Premiun</td>
 							<td>150.000</td>
 						</tr>
 						<tr>
-							<td><img src="img/Recursoswebcliente-57.png"></td>
+							<td><img src="../img/Recursoswebcliente-57.png"></td>
 						</tr>
 					</table>
 				</div>
@@ -68,10 +68,10 @@
 		
 			<div class="buttons">
 				<div class="col-sm-3 col-sm-offset-2">
-					<a href=""><img src="img/Recursoswebcliente-59.png" width="80%"></a>
+					<a href=""><img src="../img/Recursoswebcliente-59.png" width="80%"></a>
 				</div>
 				<div class="col-sm-3 col-sm-offset-1">
-					<a href=""><img src="img/Recursoswebcliente-60.png" width="80%"></a>
+					<a href=""><img src="../img/Recursoswebcliente-60.png" width="80%"></a>
 				</div>
 			</div>
 		</div>

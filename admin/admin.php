@@ -13,22 +13,22 @@
 	<meta name="keywords" content="An exceptional delivery service for exceptional restaurants.">
 	<link rel="icon" type="image/x-icon" href="logo.ico"/>
 	<title>APPLAUSO</title>
-	<link rel="stylesheet" type="text/css" href="css/estilos.css">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	<script type="text/javascript" src="../js/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/bootstrap.min.js"></script>
 </head>
 
 <body>
 	<div class="row cont_barra">
 		<div class="col-sm-2 logo_nombre">
-				<img src="img/logo.png" width="100%">
+				<img src="../img/logo.png" width="100%">
 		</div>
 		<div class="col-sm-8 buscador">
 			<input type="text" name="" class="form-control" placeholder="Search" />
 		</div>
 		<div class="col-sm-2 nombre">
-			<img src="img/Recursoswebcliente-54.png" width="20%"><b>Andres Cano</b>
+			<img src="../img/Recursoswebcliente-54.png" width="20%"><b>Andres Cano</b>
 		</div>
 	</div>
 
@@ -36,21 +36,21 @@
 		<div class="col-sm-2 menu_naranja">
 			<nav class="navbar">
 				<ul>
-					<li><img src="img/m1.png" width="40%">Home</li>
-					<li><img src="img/m2.png" width="25%">Información
+					<li><img src="../img/m1.png" width="40%">Home</li>
+					<li><img src="../img/m2.png" width="25%">Información
 						<ul class="dropdown">
 							<li>Perfil</li>
 						</ul>
 					</li>
-					<li><img src="img/m3.png" width="25%">Evento
+					<li><img src="../img/m3.png" width="25%">Evento
 						<ul class="dropdown">
 							<li>Eventos publicados</li>
 							<li>Eventos no publicados</li>
 						</ul>
 					</li>
-					<li><img src="img/m4.png" width="25%">Servicio al Cliente</li>
-					<li><img src="img/m5.png" width="30%">Reportes</li>
-					<li><img src="img/m6.png" width="25%">Configuración</li>
+					<li><img src="../img/m4.png" width="25%">Servicio al Cliente</li>
+					<li><img src="../img/m5.png" width="30%">Reportes</li>
+					<li><img src="../img/m6.png" width="25%">Configuración</li>
 				</ul>
 			</nav>
 		</div>
@@ -78,18 +78,18 @@
 				</div>
 				<div class="col-sm-4 col-xs-12 descargas">
 					<h5>Puedes descargarlo</h5>
-					<a href=""><img src="img/app.png" width="70%"  style="margin-bottom: 1em;"></a>
-					<a href=""><img src="img/play.png" width="70%"></a>
+					<a href=""><img src="../img/app.png" width="70%"  style="margin-bottom: 1em;"></a>
+					<a href=""><img src="../img/play.png" width="70%"></a>
 				</div>
 				<div class="col-sm-4 col-xs-12 article">
-					<img src="img/select1.png">
-					<img src="img/select3.png">
-					<img src="img/select4.png">
+					<img src="../img/select1.png">
+					<img src="../img/select3.png">
+					<img src="../img/select4.png">
 				</div>
 				<div class="col-sm-12 col-xs-12 social">
-					<a href=""><img src="img/facebook.png" style="width: 50px;padding-right: 1em;"></a>
-					<a href=""><img src="img/twitter.png" style="width: 50px;padding-right: 1em;"></a>
-					<a href=""><img src="img/instagram.png" style="width: 50px;padding-right: 1em;"></a>
+					<a href=""><img src="../img/facebook.png" style="width: 50px;padding-right: 1em;"></a>
+					<a href=""><img src="../img/twitter.png" style="width: 50px;padding-right: 1em;"></a>
+					<a href=""><img src="../img/instagram.png" style="width: 50px;padding-right: 1em;"></a>
 				</div>
 			</div>
 		</div>

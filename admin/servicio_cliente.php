@@ -12,8 +12,8 @@
 		<div class="row">
 			<div class="col-sm-6">
 				<h4>Teléfono de Atención al Cliente</h4>
-				<img src="img/Recursoswebcliente-57.png"> <b class="naranja">3218427321</b><br>
-				<img src="img/Recursoswebcliente-57.png"> 
+				<img src="../img/Recursoswebcliente-57.png"> <b class="naranja">3218427321</b><br>
+				<img src="../img/Recursoswebcliente-57.png"> 
 			</div>
 		</div>
 

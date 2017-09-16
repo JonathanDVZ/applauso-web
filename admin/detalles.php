@@ -74,10 +74,10 @@
 
 				<div class="buttons">
 					<div class="col-sm-3 col-sm-offset-2">
-						<a href=""><img src="img/Recursoswebcliente-59.png" width="80%"></a>
+						<a href=""><img src="../img/Recursoswebcliente-59.png" width="80%"></a>
 					</div>
 					<div class="col-sm-3 col-sm-offset-1">
-						<a href=""><img src="img/Recursoswebcliente-60.png" width="80%"></a>
+						<a href=""><img src="../img/Recursoswebcliente-60.png" width="80%"></a>
 					</div>
 				</div>
 			</form>
