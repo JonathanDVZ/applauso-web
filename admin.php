@@ -20,15 +20,15 @@
 </head>
 
 <body>
-	<div class="row">
-		<div class="col-sm-2" style="background: #0A9191;padding: 1em;">
-			<img src="img/logo.png" width="100%">
+	<div class="row cont_barra">
+		<div class="col-sm-2 logo_nombre">
+				<img src="img/logo.png" width="100%">
 		</div>
-		<div class="col-sm-8" style="background: #0DA8A8; padding: 1em;">
-			<input type="text" name="" class="form-control" style="background: #fff;" />
+		<div class="col-sm-8 buscador">
+			<input type="text" name="" class="form-control" placeholder="Search" />
 		</div>
-		<div class="col-sm-2" style="background: #0DA8A8;">
-			<img src="img/Recursoswebcliente-54.png" width="37%"><b>Andres Cano</b>
+		<div class="col-sm-2 nombre">
+			<img src="img/Recursoswebcliente-54.png" width="20%"><b>Andres Cano</b>
 		</div>
 	</div>
 
@@ -36,28 +36,31 @@
 		<div class="col-sm-2 menu_naranja">
 			<nav class="navbar">
 				<ul>
-					<li><img src="img/Recursoswebcliente-44.png">Home</li>
-					<li><img src="img/Recursoswebcliente-48.png">Información
+					<li><img src="img/m1.png" width="40%">Home</li>
+					<li><img src="img/m2.png" width="25%">Información
 						<ul class="dropdown">
 							<li>Perfil</li>
 						</ul>
 					</li>
-					<li><img src="img/Recursoswebcliente-25.png" width="20%">Evento
-						<ul>
+					<li><img src="img/m3.png" width="25%">Evento
+						<ul class="dropdown">
 							<li>Eventos publicados</li>
 							<li>Eventos no publicados</li>
 						</ul>
 					</li>
-					<li><img src="img/Recursoswebcliente-46.png">Servicio al Cliente</li>
-					<li><img src="img/Recursoswebcliente-45.png">Reportes</li>
-					<li><img src="img/Recursoswebcliente-47.png">Configuración</li>
+					<li><img src="img/m4.png" width="25%">Servicio al Cliente</li>
+					<li><img src="img/m5.png" width="30%">Reportes</li>
+					<li><img src="img/m6.png" width="25%">Configuración</li>
 				</ul>
 			</nav>
 		</div>
-		<div class="col-sm-10 cont_admin">
-			<?php
-				include_once($ruta);
-			?>
+
+		<div class="col-sm-10">
+			<div class="cont_admin">
+				<?php
+					include_once($ruta);
+				?>
+			</div>
 		</div>
 	</div>
 
@@ -82,17 +85,6 @@
 					<img src="img/select1.png">
 					<img src="img/select3.png">
 					<img src="img/select4.png">
-					<!--
-					<select class="form-control" name="">
-						<option>Eventos</option>
-					</select>
-					<select class="form-control" name="">
-						<option>Restaurantes</option>
-					</select>
-					<select class="form-control" name="">
-						<option>Aliados</option>
-					</select>
-					-->
 				</div>
 				<div class="col-sm-12 col-xs-12 social">
 					<a href=""><img src="img/facebook.png" style="width: 50px;padding-right: 1em;"></a>

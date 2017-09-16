@@ -43,6 +43,22 @@
 			$ruta = "terminos.php";
 			break;
 
+		case "eventos_publicados":
+			$ruta = "eventos_publicados.php";
+			break;
+
+		case "eventos_nopublicados":
+			$ruta = "eventos_nopublicados.php";
+			break;
+
+		case "servicio_cliente":
+			$ruta = "servicio_cliente.php";
+			break;
+
+		case "reportes":
+			$ruta = "reportes.php";
+			break;
+
 		default:
 			$ruta = "admin.php";
 	}

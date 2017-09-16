@@ -1,5 +1,5 @@
 <div class="padd_4">
-	<center><img src="img/Recursoswebcliente-54.png" width="30%"></center>
+	<center><img src="img/Recursoswebcliente-54.png" width="20%"></center>
 	<h1 class="naranja text-center"><b>Información</b></h1>
 
 	<form action="" method="" class="form2">

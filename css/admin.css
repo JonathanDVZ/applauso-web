@@ -1,13 +1,52 @@
 .menu_naranja{
 	background-color: #FF9F15;
-	padding: 1em;
+	padding-top: 1em;
+	min-height: 650px !important;
+	padding-left: .5em;
+}
+.menu_naranja .dropdown{
+	padding-left: 4em;
+}
+.menu_naranja ul{
+	padding-left: 2em;
+	padding-right: .5em;
 }
 .menu_naranja ul li{
 	list-style: none;
+	color: #fff;
+	font-weight: bold;
 }
-.menu_naranja ul li, .menu_naranja img{
+.menu_naranja .dropdown{
+	font-size: 12px;
+}
+.menu_naranja ul li img{
+	padding-right: 1em;
+}
+.menu_naranja ul li, .menu_naranja ul li img{
 	display: inline-block;
+	padding-bottom: .5em;
 }
+
+.cont_barra{
+	background: #0DA8A8;
+}
+.cont_barra .buscador{
+	padding-top: .8em !important;
+}
+.cont_barra .buscador input{
+	background: #10C4C4; color:#fff; border:none;
+}
+.cont_barra .nombre{
+	padding-top: 1em !important;
+}
+.cont_barra .nombre b{
+	padding-left: 1em;
+	color: #fff;
+}
+.cont_barra .logo_nombre{
+	background: #0A9191;padding: 1em;
+}
+
 .box_azul{
 	border: 2px solid #10C4C4;
 	border-radius: .5em;
@@ -18,9 +57,10 @@
 .cont_admin{
 	background: #fff;
 }
-.form2 input, select, textarea{
+.form2 input, .form2 select, .form2 textarea{
 	background-color: #fff !important;
 	border: 2px solid #10C4C4 !important;
+	color: #FF9F15 !important;
 }
 .form2 h4{
 	color: #FF9700;
@@ -55,4 +95,35 @@
 .cont_mapa img{
 	width: 10%;
 	padding-left: 1em;
+}
+
+.reportes .fd_azul1, .reportes .fd_azul2, .reportes .fd_azul3, .reportes .fd_azul4, .reportes .fd_naranja, .reportes .fd_naranja2, .reportes .fd_naranja3, .reportes .fd_naranja4, .reportes .fd_naranja5{
+	padding: 1em;
+	text-align: center;
+	color: #fff;
+	margin-bottom: 1em;
+}
+.reportes .fd_azul1{
+	background-color: #099191;
+}
+.reportes .fd_azul2{
+	background-color: #0CA7A7;
+}
+.reportes .fd_azul3{
+	background-color: #0EB5B5;
+}
+.reportes .fd_azul4{
+	background-color: #10C4C4;
+}
+.reportes .fd_naranja{
+	background-color: #FF9F14;
+}
+.reportes .fd_naranja2{
+	background-color: #D08213;
+}
+.reportes .fd_naranja3{
+	background-color: #FFC167;
+}
+.reportes .fd_naranja4{
+	background-color: #FF9F14;
 }

@@ -109,6 +109,9 @@ nav ul li a{
 .naranja{
 	color: #FF9700;
 }
+.azul{
+	color: #0A9191;
+}
 .gray{
 	color: #999;
 }
@@ -242,7 +245,7 @@ nav ul li a{
 	padding:3em;
 }
 .pderecho_0{
-	padding-right: 0px;
+	padding-right: 0px !important;
 }
 
 input[type="text"],
