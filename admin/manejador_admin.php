@@ -19,6 +19,10 @@
 			$ruta = "perfil.php";
 			break;
 
+		case "informacion":
+			$ruta = "informacion.php";
+			break;
+
 		case "ticket":
 			$ruta = "ticket.php";
 			break;

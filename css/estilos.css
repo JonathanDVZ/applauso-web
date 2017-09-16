@@ -92,13 +92,6 @@ label{
 .titulo{
 	font-weight: bold;
 }
-.menu{
-	margin-top: .5em;
-}
-.menu a{
-	color: #fff;
-	text-align: right;
-}
 
 nav ul li a{
 	background-color: transparent !important; 
