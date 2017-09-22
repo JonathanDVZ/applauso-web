@@ -63,7 +63,11 @@
 			$ruta = "reportes.php";
 			break;
 
+		case "menu":
+			$ruta = "menu_restaurant.php";
+			break;
+
 		default:
-			$ruta = "admin.php";
+			$ruta = "home.php";
 	}
 ?>

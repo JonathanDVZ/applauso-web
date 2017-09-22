@@ -37,30 +37,23 @@
 					<h5>Términos</h5>
 				</div>
 				<div class="col-sm-4 col-xs-12 descargas">
-					<h5>Puedes descargarlo</h5>
-					<a href=""><img src="img/app.png" width="70%"  style="margin-bottom: 1em;"></a>
-					<a href=""><img src="img/play.png" width="70%"></a>
+					<center>
+						<h5>Puedes descargarlo</h5>
+						<a href=""><img src="img/app.png" width="70%"  style="margin-bottom: 1em;"></a>
+						<a href=""><img src="img/play.png" width="70%"></a>
+					</center>
 				</div>
 				<div class="col-sm-4 col-xs-12 article">
-					<img src="img/select1.png">
-					<img src="img/select3.png">
-					<img src="img/select4.png">
-					<!--
-					<select class="form-control" name="">
-						<option>Eventos</option>
-					</select>
-					<select class="form-control" name="">
-						<option>Restaurantes</option>
-					</select>
-					<select class="form-control" name="">
-						<option>Aliados</option>
-					</select>
-					-->
+					<center>
+						<img src="img/select1.png">
+						<img src="img/select3.png">
+						<img src="img/select4.png">
+					</center>
 				</div>
 				<div class="col-sm-12 col-xs-12 social">
-					<a href=""><img src="img/facebook.png" style="width: 50px;padding-right: 1em;"></a>
-					<a href=""><img src="img/twitter.png" style="width: 50px;padding-right: 1em;"></a>
-					<a href=""><img src="img/instagram.png" style="width: 50px;padding-right: 1em;"></a>
+					<a href=""><img src="img/facebook.png"></a>
+					<a href=""><img src="img/twitter.png"></a>
+					<a href=""><img src="img/instagram.png"></a>
 				</div>
 			</div>
 		</div>

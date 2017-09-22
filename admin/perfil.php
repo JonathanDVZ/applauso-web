@@ -1,4 +1,4 @@
-<div class="padd_4">
+<div class="cont_body cont_perfil">
 	<center><img src="../img/Recursoswebcliente-54.png" width="20%"></center>
 	<h1 class="naranja text-center"><b>Información</b></h1>
 
@@ -51,7 +51,12 @@
 
 			<div class="col-sm-12">
 				<h4>Fecha de nacimiento</h4>
-				<input type="text" name="" class="form-control"></input>
+				<input 
+				type="text" name="" class="form-control"></input>
+			</div>
+			<br>
+			<div class="col-sm-12">
+				<center><button class="btn btn-info"> Guardar</button></center>
 			</div>
 
 		</div>

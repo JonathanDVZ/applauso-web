@@ -14,20 +14,41 @@
 	 }
 </style>
 
-<h2 class="text-center azul">Eventos publicados</h2>
-<table class="table table-bordered" style="border-color: #000;">
-	<tr>
-		<th>Nombredel evento</th>
-		<th>Fecha Publicada</th>
-		<th>Fecha del evento</th>
-		<th>Capacidad</th>
-		<th>Estado</th>
-	</tr>
-	<tr>
-		<td>uhiu</td>
-		<td>uhiu</td>
-		<td>uhiu</td>
-		<td>uhiu</td>
-		<td>uhiu</td>
-	</tr>
-</table>
+<div class="cont_body pad_right">
+	<h2 class="text-center azul">Eventos publicados</h2>
+
+	<table class="table table-border visible-xs">
+		<tr>
+			<th>Nombre del evento</th><td>9,1</td>
+		</tr>
+		<tr>
+			<th>Fecha Publicada</th><td>$30’000.000</td>
+		</tr>
+		<tr>
+			<th>Fecha del evento</th><td>01/04/2017</td>
+		</tr>
+		<tr>
+			<th>Capacidad</th><td>Pagado</td>
+		</tr>
+		<tr>
+			<th>Estado</th><td>Pagado</td>
+		</tr>
+	</table>
+
+	<table class="table table-bordered hidden-xs" style="border-color: #000;">
+		<tr>
+			<th>Nombre del evento</th>
+			<th>Fecha Publicada</th>
+			<th>Fecha del evento</th>
+			<th>Capacidad</th>
+			<th>Estado</th>
+		</tr>
+		<tr>
+			<td>uhiu</td>
+			<td>uhiu</td>
+			<td>uhiu</td>
+			<td>uhiu</td>
+			<td>uhiu</td>
+		</tr>
+	</table>
+</div>

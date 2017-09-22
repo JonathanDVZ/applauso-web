@@ -20,41 +20,33 @@ label{
 .btn-warning{
 	background-color: #FF9700 !important;
 }
-
+.menu_home{
+	padding-top: .5em;
+}
 .menu_top{
 	background: #0B6F6D; padding: .5em;
 }
 .menu_down{
 	padding: 1em;
 	text-align: center;
-	border-bottom: 1.5px solid rgb(164, 166, 168);;
-}
-.menu_down a{
-	color: rgb(164, 166, 168);
-	font-size: 24px;
+
 }
 .barra_icon{
 	padding-top: 2em;
 	background: #F9F9F9;
-	padding: 3em;
 	color: #989898;
 }
 .barra_icon h3{
 	font-weight: bold;
 }
-.barra_icon p{
-	text-align: justify;
-}
 .contact{
 	background: #fff;
 	border: 1px solid #333;
 	border-top: none;
-	padding: 2em;
 	margin-bottom: 3em;
 }
 .barra_contact{
 	background: #FF9700;
-	padding: 2em;
 }
 
 .barra_contact h3{
@@ -176,11 +168,6 @@ nav ul li a{
 
 .grad2, .grad4, .grad5, .grad7, .grad8, .grad9, .grad10{
 	background-repeat: no-repeat;
-	background-size: 100% 100%; 
-}
-.grad7{
-	background-repeat: no-repeat;
-	background-size: 100% 70%; 
 }
 
 .barra_sup nav, .barra_sup img, .inline img, .inline h3, .inline h1{
@@ -239,6 +226,15 @@ nav ul li a{
 }
 .pderecho_0{
 	padding-right: 0px !important;
+}
+.mizquierdo0{
+	margin-left: 0em !important;
+}
+.mb_1{
+	margin-bottom: 1em;
+}
+.social img{
+	padding-right: 1em;
 }
 
 input[type="text"],
@@ -301,4 +297,8 @@ textarea{
 }
 .border_black{
 	border: 1px solid #818181 !important;
+}
+.cont{
+	padding-right: 0px !important;
+	padding-left: 0px !important;
 }

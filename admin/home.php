@@ -1,4 +1,4 @@
-<div class="padd_4">
+<div class="cont_body cont_home">
 	<div class="row">
 		<div class="col-xs-12 padd_right col-sm-5 col-sm-offset-1">
 			<div class="pull-right"><img src="../img/Recursoswebcliente-40.png" width="80%"></div>

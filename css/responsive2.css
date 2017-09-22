@@ -1,0 +1,75 @@
+@media(max-width: 600px){
+	.buscador{
+		margin-left: .5em;
+		padding-bottom: .5em;
+	}
+	.nombre img{
+		width: 10%;
+		padding-bottom: 1em;
+		padding-top: .5em;
+	}
+	.nombre b{
+		margin-top: 0em;
+	}
+	.cont_barra .nombre{
+		padding-top: 0em;
+	}
+	.cont_body{
+		padding: 2em;
+	}
+	.cont_perfil{
+		padding-right: 0em;
+	}
+	.cont_home{
+		padding-right: 1em;
+	}
+}
+
+@media(min-width: 600px) and (max-width: 767px){
+	.logo_nombre img{
+		width: 40%;
+	}
+	.buscador{
+		padding-bottom: 1em;
+		margin-left: 1em;
+	}
+	.cont_body{
+		padding: 2em;
+		padding-right: 0em !important;
+	}
+}
+
+
+@media(max-width: 767px){
+	.navbar-header, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+		background: #FF9700 !important;
+	}
+	.navbar-toggle{
+		border-color: #FF9700 !important;
+	}
+	.navbar-default .navbar-toggle .icon-bar{
+		background: #fff !important;
+	}
+	.navbar-default .navbar-brand{
+		color: #fff !important;
+	}
+	.pad_right{
+		padding-right: 1em !important;
+	}
+	.npad_right{
+		padding-right: 0em !important;
+	}
+}
+
+
+@media(min-width: 768px){
+	.navbar-header{
+		padding-top: 1em !important;
+	}
+	.cont_body{
+		padding: 4em;
+	}
+	.cont_barra .nombre{
+		padding-top: 1em !important;
+	}
+}
