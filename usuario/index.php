@@ -14,6 +14,8 @@
 	<link rel="icon" type="image/x-icon" href="logo.ico"/>
 	<title>APPLAUSO</title>
 	<link rel="stylesheet" type="text/css" href="../css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="../css/responsive.css">
+	<link rel="stylesheet" type="text/css" href="../css/responsive2.css">
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
 	<script type="text/javascript" src="../js/jquery.min.js"></script>
 	<script type="text/javascript" src="../js/bootstrap.min.js"></script>
@@ -22,39 +24,21 @@
 <body>
 	<div class="row cont_barra">
 		<div class="col-sm-2 logo_nombre">
-				<img src="../img/logo.png" width="100%">
+			<center><img src="../img/logo.png" width="100%"></center>
 		</div>
 		<div class="col-sm-8 buscador">
-			<input type="text" name="" class="form-control" placeholder="Search" />
+			<center><input type="text" name="" class="form-control" placeholder="Search" /></center>
 		</div>
-		<div class="col-sm-2 nombre">
-			<img src="../img/Recursoswebcliente-54.png" width="20%"><b>Andres Cano</b>
+		<div class="col-sm-2 nombre hidden-xs">
+			<center><img src="../img/Recursoswebcliente-54.png" width="20%"><b>Andres Cano</b></center>
 		</div>
 	</div>
-
 	<div class="row">
-		<div class="col-sm-2 menu_naranja">
-			<nav class="navbar">
-				<ul>
-					<li><img src="../img/m1.png" width="40%">Home</li>
-					<li><img src="../img/m2.png" width="25%">Información
-						<ul class="dropdown">
-							<li>Perfil</li>
-						</ul>
-					</li>
-					<li><img src="../img/Recursoswebcliente-26.png" width="25%">Comida
-						<ul class="dropdown">
-							<li>Menús publicados</li>
-						</ul>
-					</li>
-					<li><img src="../img/m4.png" width="25%">Servicio al Cliente</li>
-					<li><img src="../img/m5.png" width="30%">Reportes</li>
-					<li><img src="../img/m6.png" width="25%">Configuración</li>
-				</ul>
-			</nav>
+		<div class="col-sm-2 padd_right" style="padding-right: 0em;">
+			<?php include_once("menu.php"); ?>
 		</div>
 
-		<div class="col-sm-10">
+		<div class="col-sm-10 cont">
 			<div class="cont_admin">
 				<?php
 					include_once($ruta);
@@ -76,19 +60,25 @@
 					<h5>Términos</h5>
 				</div>
 				<div class="col-sm-4 col-xs-12 descargas">
-					<h5>Puedes descargarlo</h5>
-					<a href=""><img src="../img/app.png" width="70%"  style="margin-bottom: 1em;"></a>
-					<a href=""><img src="../img/play.png" width="70%"></a>
+					<center>
+						<h5>Puedes descargarlo</h5>
+						<a href=""><img src="../img/app.png" width="70%"  style="margin-bottom: 1em;"></a>
+						<a href=""><img src="../img/play.png" width="70%"></a>
+					</center>
 				</div>
 				<div class="col-sm-4 col-xs-12 article">
-					<img src="../img/select1.png">
-					<img src="../img/select3.png">
-					<img src="../img/select4.png">
+					<center>
+						<img src="../img/select1.png">
+						<img src="../img/select3.png">
+						<img src="../img/select4.png">
+					</center>
 				</div>
 				<div class="col-sm-12 col-xs-12 social">
-					<a href=""><img src="../img/facebook.png" style="width: 50px;padding-right: 1em;"></a>
-					<a href=""><img src="../img/twitter.png" style="width: 50px;padding-right: 1em;"></a>
-					<a href=""><img src="../img/instagram.png" style="width: 50px;padding-right: 1em;"></a>
+					<center>
+						<a href=""><img src="../img/facebook.png" style="width: 50px;padding-right: 1em;"></a>
+						<a href=""><img src="../img/twitter.png" style="width: 50px;padding-right: 1em;"></a>
+						<a href=""><img src="../img/instagram.png" style="width: 50px;padding-right: 1em;"></a>
+					</center>
 				</div>
 			</div>
 		</div>

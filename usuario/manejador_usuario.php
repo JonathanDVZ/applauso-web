@@ -15,6 +15,10 @@
 			$ruta = "inicio.php";
 			break;
 
+		case "informacion":
+			$ruta = "informacion.php";
+			break;
+
 		case "perfil":
 			$ruta = "perfil.php";
 			break;
@@ -28,14 +32,14 @@
 			break;
 
 		case "menu":
-			$ruta = "menu.php";
+			$ruta = "menu2.php";
 			break;
 
 		case "lugar":
 			$ruta = "lugar.php";
 			break;
 
-		case "promocion":
+		case "promociones":
 			$ruta = "promocion.php";
 			break;
 
@@ -43,7 +47,7 @@
 			$ruta = "publicidad.php";
 			break;
 
-		case "forma_pago":
+		case "formadepago":
 			$ruta = "forma_pago.php";
 			break;
 

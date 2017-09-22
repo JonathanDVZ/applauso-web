@@ -14,13 +14,13 @@
 	.cont_barra .nombre{
 		padding-top: 0em;
 	}
-	.cont_body{
+	.cont_body, .cont_info{
 		padding: 2em;
 	}
-	.cont_perfil{
+	.cont_perfil,.cont_info{
 		padding-right: 0em;
 	}
-	.cont_home{
+	.cont_home, .cont_info, {
 		padding-right: 1em;
 	}
 }
@@ -67,9 +67,35 @@
 		padding-top: 1em !important;
 	}
 	.cont_body{
-		padding: 4em;
+		padding: 1em;
 	}
 	.cont_barra .nombre{
 		padding-top: 1em !important;
 	}
+	.form2 .col-sm-12,.form2 .col-sm-6{
+		padding-right: 0px !important;
+	}
+	.cont_mapa, .cont_infor{
+		padding-top: 10em;
+		padding-bottom: 10em;
+	}
+	.contenedor{
+		padding-right: 50px;padding-left: 50px;
+	}
 }
+
+@media(min-width: 768px){
+	.cont_perfil{
+		padding: 4em;
+	}
+	.cont_info{
+		padding: 1em;
+	}
+}
+
+@media(min-width: 1000px){
+	.cont_infor form select{
+		width: 300px;
+	}
+}
+

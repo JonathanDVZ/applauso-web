@@ -47,15 +47,8 @@
 	color: #FF9F15;
 	font-size: 20px;
 }
-.contenedor{
-	padding-right: 50px;padding-left: 50px;
-}
 .buttons a img{
 	padding: 2em;
-}
-.cont_mapa, .cont_infor{
-	padding-top: 10em;
-	padding-bottom: 10em;
 }
 .cont_mapa img{
 	width: 10%;

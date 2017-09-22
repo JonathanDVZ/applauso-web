@@ -1,54 +1,67 @@
-<div class="row">
-	<div class="col-xs-12 col-sm-12">
-		<nav class="navbar menu_hor">
-			<ul class="nav navbar-nav">
-				<li><a href="?op=informacion">Información</a></li>
-				<li><a href="?op=menu" class="active">Menú</a></li>
-				<li><a href="">Lugar</a></li>
-				<li><a href="">Detalles</a></li>
-				<li><a href="">Promociones</a></li>
-				<li><a href="">Publicidad</a></li>
-				<li><a href="">Formas de pago</a></li>
-			</ul>
-		</nav>
-	</div>
-</div>
+<link rel="stylesheet" type="text/css" href="../css/menu.css">
 
-<div class="row">
-	<div class="">
-		<div class="col-sm-12">
-			<h2 class="text-center naranja">Menú</h2>
-		</div>
-		<div class="col-sm-2">
-			<h3 class="text-center naranja">Entradas</h3>
-			<center><img src="../img/Recursoswebcliente-79.png" width="80%" class="icon_8"></center>
-		</div>
-		<div class="col-sm-2">
-			<h3 class="text-center naranja">Ensaladas</h3>
-			<center><img src="../img/Recursoswebcliente-80.png" width="80%" class="icon_9"></center>
-		</div>
-		<div class="col-sm-2">
-			<h3 class="text-center naranja">Plato Fuerte</h3>
-			<center><img src="../img/Recursoswebcliente-81.png" width="80%" class="icon_10"></center>
-		</div>
-		<div class="col-sm-2">
-			<h3 class="text-center naranja">Adiciones</h3>
-			<center><img src="../img/Recursoswebcliente-82.png" width="80%" class="icon_11"></center>
-		</div>
-		<div class="col-sm-2">
-			<h3 class="text-center naranja">Bebidas</h3>
-			<center><img src="../img/Recursoswebcliente-83.png" width="80%" class="icon_12"></center>
-		</div>
-		<div class="col-sm-2">
-			<h3 class="text-center naranja">Postres</h3>
-			<center><img src="../img/Recursoswebcliente-84.png" width="80%" class="icon_13"></center>
-		</div>
+<div class=" affix-row">
+	<div class="affix-sidebar">
+		<div class="sidebar-nav">
+			<div class="navbar navbar-default" role="navigation">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</button>
+					<span class="visible-xs navbar-brand"><b>Andres Cano</b></span>
+				</div>
+				
+				<div class="navbar-collapse collapse sidebar-navbar-collapse">
+					<!--solo table, laptop-->
+					<ul class="nav navbar-nav hidden-xs">
+						<li><img src="../img/m1.png" width="20%"> <a href="?op=inicio">Home</a></li>
+						<li ><img src="../img/m2.png" width="20%"> <a href="?op=informacion">Información</a></li>	
+							<ul class="dropdown">
+								<li><a href="?op=perfil">Perfil</a></li>
+							</ul>
+						</li>
+						<li><img src="../img/Recursoswebcliente-26.png" width="20%"> <a href="">Comida</a>
+							<ul class="dropdown">
+								<li><a href="?op=informacion">Menús publicados</a></li>
+							</ul>
+						</li>
+						<li><img src="../img/m4.png" width="20%"><a href="?op=servicio_cliente">Servicio al Cliente</a></li>
+						<li><img src="../img/m5.png" width="20%"><a href="?op=reportes">Reportes</a></li>
+						<li><img src="../img/m6.png" width="20%"><a href="?op=configuracion">Configuración</a></li>
+					</ul>
 
-		<div class="col-sm-12 list_comida">
-			<ul>
-				<li><img src="../img/Recursoswebcliente-57.png"> <b class="naranja txt_16"> Ensalada César</b></li>
-				<li><img src="../img/Recursoswebcliente-57.png"></li>
-			</ul>
+					<!-- solo movil-->
+					<ul class="nav navbar-nav visible-xs">
+						<li><a href="?op=home">Home</a></li>
+						<li class="hidden-md hidden-lg">
+							<a href="#" data-toggle="collapse" data-target="#toggleDemo" data-parent="#sidenav01" class="collapsed">
+								<span class="glyphicon glyphicon-cloud"></span> Información <span class="caret pull-right"></span>
+							</a>
+							<div class="collapse" id="toggleDemo" style="height: 0px;">
+								<ul class="nav nav-list">
+									<li><a href="?op=perfil">Perfil</a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="hidden-md hidden-lg">
+							<a href="#" data-toggle="collapse" data-target="#toggleDemo1" data-parent="#sidenav02" class="collapsed">
+								<span class="glyphicon glyphicon-cloud"></span> Comida <span class="caret pull-right"></span>
+							</a>
+							<div class="collapse" id="toggleDemo1" style="height: 0px;">
+								<ul class="nav nav-list">
+									<li><a href="?op=eventos_publicados">Menús publicados</a></li>
+								</ul>
+							</div>
+						</li>
+						<li><a href="?op=servicio_cliente">Servicio al Cliente</a></li>
+						<li><a href="?op=reportes">Reportes</a></li>
+						<li><a href="?op=configuracion">Configuración</a></li>
+					</ul>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
