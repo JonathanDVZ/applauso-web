@@ -23,6 +23,28 @@
 	.cont_home, .cont_info, {
 		padding-right: 1em;
 	}
+	.cont_menu .box-menu img{
+		width: 50%;
+	}
+	.cont_menu .box-menu{
+		min-height: 200px;
+	}
+	.list_comida img{
+		width: 20%;
+	}
+	.menu_hor {
+		padding-left: 1em;
+	}
+	.menu_hor .nav>li{
+		display: inline-block !important;
+	}
+	.menu_hor .nav>li a{
+		font-size:  14px;
+		text-align: center;
+	}
+	.buttons img{
+		width: 100%;
+	}
 }
 
 @media(min-width: 600px) and (max-width: 767px){
@@ -33,9 +55,29 @@
 		padding-bottom: 1em;
 		margin-left: 1em;
 	}
-	.cont_body{
+	.cont_body, .cont_lugar, .cont_detalle, .cont_publicidad{
 		padding: 2em;
 		padding-right: 0em !important;
+	}
+	.cont_menu .box-menu img{
+		width: 50%;
+	}
+	.cont_menu .box-menu{
+		min-height: 270px;
+	}
+	.menu_hor{
+		padding-left: 3.5em;
+	}
+	.menu_hor .nav>li{
+		display: inline-block !important;
+	}
+	.menu_hor .nav>li a{
+		font-size:  14px;
+		text-align: center;
+		padding: .5em;
+	}
+	.buttons img{
+		width: 50%;
 	}
 }
 
@@ -59,6 +101,9 @@
 	.npad_right{
 		padding-right: 0em !important;
 	}
+	.cont_lugar h2, .cont_detalle h2, .cont_publicidad h2{
+		text-align: center;
+	}
 }
 
 
@@ -72,7 +117,7 @@
 	.cont_barra .nombre{
 		padding-top: 1em !important;
 	}
-	.form2 .col-sm-12,.form2 .col-sm-6{
+	.form2 .col-sm-12,.form2 .col-sm-6,.form2 .col-xs-6{
 		padding-right: 0px !important;
 	}
 	.cont_mapa, .cont_infor{
@@ -82,16 +127,33 @@
 	.contenedor{
 		padding-right: 50px;padding-left: 50px;
 	}
-}
-
-@media(min-width: 768px){
 	.cont_perfil{
 		padding: 4em;
 	}
 	.cont_info{
 		padding: 1em;
 	}
+	.buttons img{
+		width: 80%;
+	}
 }
+
+@media(min-width: 768px) and (max-width: 1200px){
+	.menu_hor {
+		padding-left: 1em;
+	}
+	.menu_hor .nav>li{
+		display: inline-block !important;
+	}
+	.menu_hor .nav>li a{
+		font-size:  12px;
+		text-align: center;
+	}
+	.cont_menu h3{
+		font-size: 12px;
+	}
+}
+
 
 @media(min-width: 1000px){
 	.cont_infor form select{

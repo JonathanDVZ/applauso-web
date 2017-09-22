@@ -1,4 +1,4 @@
-<div class="cont_body">
+<div class="cont_info">
 	<div class="row">
 		<div class="col-xs-12 col-sm-12">
 			<nav class="navbar menu_hor">

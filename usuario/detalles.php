@@ -1,4 +1,4 @@
-<div class="cont_body">
+<div class="cont_info">
 	<div class="row">
 		<div class="col-xs-12 col-sm-12">
 			<nav class="navbar menu_hor">
@@ -15,52 +15,50 @@
 		</div>
 	</div>
 
-	<form class="form2" action="" method="">
-		<div class="contenedor">
+	<div class="contenedor cont_detalle">
+		<h2 class="text-left naranja">Detalles del Restaurante</h2>
+		<form class="form2" action="" method="">	
 			<div class="row">
-				<h2 class="text-left naranja">Detalles del Restaurante</h2>
-				<form class="form" action="" method="">	
-					<div class="col-sm-5">
-						<br>
-						<h4 class="text-left">Nombre del restaurante</h4>
-						<input type="text" name="" class="form-control" />
-						
-						<h4 class="text-left">Descripción del restaurante</h4>
-						<input type="text" name="" class="form-control" />
-					</div>
+				<div class="col-sm-5">
+					<br>
+					<h4 class="text-left">Nombre del restaurante</h4>
+					<input type="text" name="" class="form-control" />
+					
+					<h4 class="text-left">Descripción del restaurante</h4>
+					<input type="text" name="" class="form-control" />
+				</div>
+			</div>
 
-
-					<div class="col-sm-9">
-						<div class="row">
-							<div class="col-sm-6">
-								<h4>Start time</h4>
-							</div>
-							<div class="col-sm-6">
-								<h4>End Time</h4>
-							</div>
-							<div class="col-sm-2">
-								<input type="number" name="" class="form-control" />
-							</div>
-							<div class="col-sm-2">
-								<input type="number" name="" class="form-control" />
-							</div>
-							<div class="col-sm-2">
-								<input type="number" name="" class="form-control" />
-							</div>
-							
-							<div class="col-sm-2">
-								<input type="number" name="" class="form-control" />
-							</div>
-							<div class="col-sm-2">
-								<input type="number" name="" class="form-control" />
-							</div>
-							<div class="col-sm-2">
-								<input type="number" name="" class="form-control" />
-							</div>
+			<div class="row">
+				<div class="col-sm-6">
+					<h4>Start time</h4>
+					<div class="row">
+						<div class="col-xs-4">
+							<input type="number" name="" class="form-control" />
+						</div>
+						<div class="col-xs-4">
+							<input type="number" name="" class="form-control" />
+						</div>
+						<div class="col-xs-4">
+							<input type="number" name="" class="form-control" />
 						</div>
 					</div>
-				</form>
+				</div>
+				<div class="col-sm-6">
+					<h4>End time</h4>
+					<div class="row">
+						<div class="col-xs-4">
+							<input type="number" name="" class="form-control" />
+						</div>
+						<div class="col-xs-4">
+							<input type="number" name="" class="form-control" />
+						</div>
+						<div class="col-xs-4">
+							<input type="number" name="" class="form-control" />
+						</div>
+					</div>
+				</div>
 			</div>
-		</div>
-	</form>
+		</form>
+	</div>
 </div>

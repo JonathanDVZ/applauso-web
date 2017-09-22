@@ -1,4 +1,4 @@
-<div class="cont_body">
+<div class="cont_info">
 	<div class="row">
 		<div class="col-xs-12 col-sm-12">
 			<nav class="navbar menu_hor">
@@ -15,7 +15,7 @@
 		</div>
 	</div>
 
-	<div class="container inline">
+	<div class="inline">
 		<div class="cont_mapa">
 			<center><h1 class="naranja text-center">Sección para promociones</h1></center>
 		</div>
