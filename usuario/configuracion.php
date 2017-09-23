@@ -1,4 +1,4 @@
-<div class="cont_infor">
+<div class="cont_body cont_infor">
 	<form class="form2" action="" method="">
 		<div class="contenedor">
 			<div class="row">

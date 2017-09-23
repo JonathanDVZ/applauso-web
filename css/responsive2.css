@@ -20,10 +20,10 @@
 	.cont_perfil,.cont_info{
 		padding-right: 0em;
 	}
-	.cont_home, .cont_info, {
+	.cont_home, .cont_info{
 		padding-right: 1em;
 	}
-	.cont_menu .box-menu img{
+	.cont_menu .box-menu img, .cont_pago img{
 		width: 50%;
 	}
 	.cont_menu .box-menu{
@@ -59,7 +59,7 @@
 		padding: 2em;
 		padding-right: 0em !important;
 	}
-	.cont_menu .box-menu img{
+	.cont_menu .box-menu img, .cont_pago img{
 		width: 50%;
 	}
 	.cont_menu .box-menu{
@@ -77,7 +77,7 @@
 		padding: .5em;
 	}
 	.buttons img{
-		width: 50%;
+		width: 70%;
 	}
 }
 
@@ -133,9 +133,6 @@
 	.cont_info{
 		padding: 1em;
 	}
-	.buttons img{
-		width: 80%;
-	}
 }
 
 @media(min-width: 768px) and (max-width: 1200px){
@@ -153,11 +150,18 @@
 		font-size: 12px;
 	}
 }
-
-
+@media(min-width: 768px) and (max-width: 1199px){
+	.buttons img{
+		width: 70%;
+	}
+}
 @media(min-width: 1000px){
 	.cont_infor form select{
 		width: 300px;
 	}
 }
-
+@media(min-width: 1200px){
+	.buttons img{
+		width: 80%;
+	}
+}

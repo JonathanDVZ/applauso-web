@@ -60,12 +60,14 @@
 				</div>
 
 				<div class="buttons">
-					<div class="col-xs-6 col-sm-6 col-lg-3 col-lg-offset-2">
-						<a href=""><img src="../img/Recursoswebcliente-59.png"></a>
-					</div>
-					<div class="col-xs-6 col-sm-6 col-lg-3 col-lg-offset-1">
-						<a href=""><img src="../img/Recursoswebcliente-60.png"></a>
-					</div>
+					<center>
+						<div class="col-xs-6 col-sm-6 col-lg-3 col-lg-offset-2">
+							<a href=""><img src="../img/Recursoswebcliente-59.png"></a>
+						</div>
+						<div class="col-xs-6 col-sm-6 col-lg-3 col-lg-offset-1">
+							<a href=""><img src="../img/Recursoswebcliente-60.png"></a>
+						</div>
+					</center>
 				</div>
 			</form>
 		</div>

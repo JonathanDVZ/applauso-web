@@ -1,4 +1,4 @@
-<div class="padd_4">
+<div class="cont_body">
 	<h1 class="azul text-center"><b>Servicio al Cliente</b></h1>
 
 	<form action="" method="" class="form2">

@@ -1,4 +1,4 @@
-<div class="padd_4 reportes">
+<div class="cont_body npad_right reportes">
 	<h1 class="azul text-center"><b>Reportes</b></h1>
 
 	<div class="row">
